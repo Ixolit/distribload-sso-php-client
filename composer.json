@@ -1,0 +1,27 @@
+{
+	"name": "ixolit/distribload-sso",
+	"description": "SSO client library for the Ixolit DistribLoad platform.",
+	"type": "library",
+	"keywords": ["client", "api", "sso"],
+	"homepage": "http://www.distribload.com",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/Ixolit/distribload-sso-php-client/issues"
+	},
+	"require": {
+		"php": ">=5.3.0",
+		"ext-curl": "*"
+	},
+	"suggest": {
+	},
+	"autoload": {
+		"psr-0": {
+			"DistribLoad\\": "./"
+		}
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "master"
+		}
+	}
+}
